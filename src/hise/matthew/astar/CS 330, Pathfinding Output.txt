@@ -1,0 +1,18 @@
+
+Name: Matthew Hise
+Class: CS 330-02
+
+Nodes and connections:
+
+Node 1: (-1.0, -1.25)
+Outgoing connections from node 1:	1 -> 2		1 -> 3		1 -> 6		
+Node 2: (0.25, -1.5)
+Outgoing connections from node 2:	2 -> 1		2 -> 3		2 -> 4		
+Node 3: (0.0, 0.0)
+Outgoing connections from node 3:	3 -> 1		3 -> 2		3 -> 4		3 -> 6		
+Node 4: (1.75, 0.25)
+Outgoing connections from node 4:	4 -> 2		4 -> 3		4 -> 5		
+Node 5: (0.5, 1.0)
+Outgoing connections from node 5:	5 -> 4		5 -> 6		
+Node 6: (-1.25, 0.5)
+Outgoing connections from node 6:	6 -> 1		6 -> 3		6 -> 5		
