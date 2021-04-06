@@ -2,17 +2,223 @@
 Name: Matthew Hise
 Class: CS 330-02
 
-Nodes and connections:
+Nodes and connections of graph:
 
-Node 1: (-1.0, -1.25)
-Outgoing connections from node 1:	1 -> 2		1 -> 3		1 -> 6		
-Node 2: (0.25, -1.5)
-Outgoing connections from node 2:	2 -> 1		2 -> 3		2 -> 4		
-Node 3: (0.0, 0.0)
-Outgoing connections from node 3:	3 -> 1		3 -> 2		3 -> 4		3 -> 6		
-Node 4: (1.75, 0.25)
-Outgoing connections from node 4:	4 -> 2		4 -> 3		4 -> 5		
-Node 5: (0.5, 1.0)
-Outgoing connections from node 5:	5 -> 4		5 -> 6		
-Node 6: (-1.25, 0.5)
-Outgoing connections from node 6:	6 -> 1		6 -> 3		6 -> 5		
+Node 1: (20.0, 30.0)
+Outgoing connections:  1 -> 2
+
+Node 2: (20.0, 15.0)
+Outgoing connections:  2 -> 1,  2 -> 3
+
+Node 3: (50.0, 10.0)
+Outgoing connections:  3 -> 2,  3 -> 4
+
+Node 4: (70.0, 10.0)
+Outgoing connections:  4 -> 3,  4 -> 5
+
+Node 5: (115.0, 10.0)
+Outgoing connections:  5 -> 4,  5 -> 6
+
+Node 6: (135.0, 10.0)
+Outgoing connections:  6 -> 5,  6 -> 7
+
+Node 7: (165.0, 10.0)
+Outgoing connections:  7 -> 6,  7 -> 8
+
+Node 8: (170.0, 15.0)
+Outgoing connections:  8 -> 7,  8 -> 9,  8 -> 10
+
+Node 9: (180.0, 15.0)
+Outgoing connections:  9 -> 8
+
+Node 10: (170.0, 65.0)
+Outgoing connections:  10 -> 8,  10 -> 11
+
+Node 11: (160.0, 65.0)
+Outgoing connections:  11 -> 35,  11 -> 12
+
+Node 12: (151.0, 68.0)
+Outgoing connections:  12 -> 11,  12 -> 13,  12 -> 34
+
+Node 13: (142.0, 71.0)
+Outgoing connections:  13 -> 12,  13 -> 14,  13 -> 30,  13 -> 33
+
+Node 14: (133.0, 74.0)
+Outgoing connections:  14 -> 13,  14 -> 15,  14 -> 32
+
+Node 15: (124.0, 77.0)
+Outgoing connections:  15 -> 14,  15 -> 16,  15 -> 31
+
+Node 16: (115.0, 80.0)
+Outgoing connections:  16 -> 15,  16 -> 17,  16 -> 44,  16 -> 38,  16 -> 29
+
+Node 17: (92.5, 80.0)
+Outgoing connections:  17 -> 16,  17 -> 18,  17 -> 18,  17 -> 28,  17 -> 45
+
+Node 18: (70.0, 80.0)
+Outgoing connections:  18 -> 19,  18 -> 46,  18 -> 26,  18 -> 59
+
+Node 19: (45.0, 75.0)
+Outgoing connections:  19 -> 18,  19 -> 20,  19 -> 62,  19 -> 25,  19 -> 59
+
+Node 20: (35.0, 70.0)
+Outgoing connections:  20 -> 19,  20 -> 21,  20 -> 24
+
+Node 21: (20.0, 55.0)
+Outgoing connections:  21 -> 20,  21 -> 22
+
+Node 22: (30.0, 50.0)
+Outgoing connections:  22 -> 23
+
+Node 23: (45.0, 40.0)
+Outgoing connections:  23 -> 3
+
+Node 24: (40.0, 60.0)
+Outgoing connections:  24 -> 20
+
+Node 25: (50.0, 65.0)
+Outgoing connections:  25 -> 19
+
+Node 26: (70.0, 70.0)
+Outgoing connections:  26 -> 18,  26 -> 27,  26 -> 28
+
+Node 27: (70.0, 60.0)
+Outgoing connections:  27 -> 26
+
+Node 28: (92.5, 70.0)
+Outgoing connections:  28 -> 26,  28 -> 29,  28 -> 17
+
+Node 29: (115.0, 70.0)
+Outgoing connections:  29 -> 28,  29 -> 30,  29 -> 16
+
+Node 30: (140.0, 62.0)
+Outgoing connections:  30 -> 29,  30 -> 13
+
+Node 31: (128.5, 83.0)
+Outgoing connections:  31 -> 15
+
+Node 32: (137.5, 80.0)
+Outgoing connections:  32 -> 14
+
+Node 33: (146.5, 77.0)
+Outgoing connections:  33 -> 13
+
+Node 34: (155.5, 74.0)
+Outgoing connections:  34 -> 12
+
+Node 35: (175.0, 85.0)
+Outgoing connections:  35 -> 36,  35 -> 37,  35 -> 60
+
+Node 36: (175.0, 65.0)
+Outgoing connections:  36 -> 10
+
+Node 37: (145.0, 95.0)
+Outgoing connections:  37 -> 38,  37 -> 35,  37 -> 39
+
+Node 38: (130.0, 100.0)
+Outgoing connections:  38 -> 44,  38 -> 16,  38 -> 37,  38 -> 40
+
+Node 39: (152.0, 105.0)
+Outgoing connections:  39 -> 37
+
+Node 40: (145.0, 120.0)
+Outgoing connections:  40 -> 38,  40 -> 41,  40 -> 43
+
+Node 41: (160.0, 140.0)
+Outgoing connections:  41 -> 40,  41 -> 42
+
+Node 42: (175.0, 160.0)
+Outgoing connections:  42 -> 41
+
+Node 43: (75.0, 190.0)
+Outgoing connections:  43 -> 40
+
+Node 44: (115.0, 100.0)
+Outgoing connections:  44 -> 16,  44 -> 38,  44 -> 53,  44 -> 45
+
+Node 45: (92.5, 100.0)
+Outgoing connections:  45 -> 17,  45 -> 50,  45 -> 44,  45 -> 46
+
+Node 46: (70.0, 100.0)
+Outgoing connections:  46 -> 18,  46 -> 47,  46 -> 45,  46 -> 59
+
+Node 47: (70.0, 110.0)
+Outgoing connections:  47 -> 46,  47 -> 48,  47 -> 61,  47 -> 64
+
+Node 48: (77.0, 110.0)
+Outgoing connections:  48 -> 47,  48 -> 49,  48 -> 58
+
+Node 49: (85.0, 110.0)
+Outgoing connections:  49 -> 48,  49 -> 50,  49 -> 57
+
+Node 50: (92.5, 110.0)
+Outgoing connections:  50 -> 49,  50 -> 51,  50 -> 45,  50 -> 56
+
+Node 51: (100.0, 110.0)
+Outgoing connections:  51 -> 50,  51 -> 52,  51 -> 55
+
+Node 52: (108.0, 110.0)
+Outgoing connections:  52 -> 51,  52 -> 53,  52 -> 54
+
+Node 53: (115.0, 110.0)
+Outgoing connections:  53 -> 52,  53 -> 44
+
+Node 54: (108.0, 120.0)
+Outgoing connections:  54 -> 52
+
+Node 55: (100.0, 120.0)
+Outgoing connections:  55 -> 51
+
+Node 56: (92.5, 120.0)
+Outgoing connections:  56 -> 50
+
+Node 57: (85.0, 120.0)
+Outgoing connections:  57 -> 49
+
+Node 58: (77.0, 120.0)
+Outgoing connections:  58 -> 48
+
+Node 59: (60.0, 90.0)
+Outgoing connections:  59 -> 18,  59 -> 19,  59 -> 46
+
+Node 60: (182.0, 95.0)
+Outgoing connections:  60 -> 35
+
+Node 61: (43.0, 98.0)
+Outgoing connections:  61 -> 47,  61 -> 62,  61 -> 65
+
+Node 62: (35.0, 95.0)
+Outgoing connections:  62 -> 19,  62 -> 61,  62 -> 63
+
+Node 63: (30.0, 105.0)
+Outgoing connections:  63 -> 62,  63 -> 64
+
+Node 64: (65.0, 120.0)
+Outgoing connections:  64 -> 47,  64 -> 63,  64 -> 66
+
+Node 65: (40.0, 105.0)
+Outgoing connections:  65 -> 61
+
+Node 66: (20.0, 145.0)
+Outgoing connections:  66 -> 64
+
+
+Path from node 1 to node 23:
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15 -> 16 -> 17 -> 18 -> 19 -> 20 -> 21 -> 22 -> 23
+cost = 416.0
+
+Path from node 1 to node 59:
+1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15 -> 16 -> 17 -> 18 -> 59
+cost = 351.0
+
+Path from node 8 to node 58:
+8 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15 -> 16 -> 44 -> 53 -> 52 -> 51 -> 50 -> 49 -> 48 -> 58
+cost = 199.0
+
+Path from node 9 to node 65:
+9 -> 8 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15 -> 16 -> 17 -> 18 -> 19 -> 62 -> 61 -> 65
+cost = 239.0
+
+Path from node 27 to node 33:
+27 -> 26 -> 28 -> 17 -> 16 -> 15 -> 14 -> 13 -> 33
+cost = 152.0

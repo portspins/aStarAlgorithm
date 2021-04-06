@@ -8,6 +8,13 @@ import java.io.*;
 import java.util.Scanner;
 
 public class GraphFileReader {
+
+    /**
+     * Read in the nodes and connections for a graph from one or more files
+     * @param filepaths the paths to the files containing the graph data
+     * @return the constructed graph
+     * @throws FileNotFoundException
+     */
     public Graph constructGraph(String[] filepaths) throws FileNotFoundException {
         Graph g = new Graph();
         File file;
@@ -20,11 +27,13 @@ public class GraphFileReader {
             while(graphScanner.hasNextLine()) {
                 String line = graphScanner.nextLine();
                 Character firstChar = line.charAt(0);
+                // Check if the line is a comment
                 if(firstChar.equals('#')) {
                     continue;
                 }
                 String lineType = line.substring(0, line.indexOf(","));
                 line = line.substring(line.indexOf(",") + 1);
+                // Check if the line defines a connection or a node
                 if (lineType.equals("\"C\"") || lineType.equals("\"c\"")) {
                     Connection c = new Connection();
                     String[] fields = line.split(",");

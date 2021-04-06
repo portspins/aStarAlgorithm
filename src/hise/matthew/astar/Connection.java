@@ -26,10 +26,6 @@ public class Connection {
         this.toNode = toNode;
     }
 
-    public int getN() {
-        return n;
-    }
-
     public double getWeight() {
         return weight;
     }

@@ -1,5 +1,5 @@
 // File : NodeRecord.java
-// Purpose : Define the NodeRecord class
+// Purpose : Define the NodeRecord class to store data for A* algorithm
 // Author : Matthew Hise (mrh0036@uah.edu)
 
 package hise.matthew.astar;
@@ -60,6 +60,11 @@ public class NodeRecord implements Comparable<NodeRecord> {
         return pathConnect;
     }
 
+    /**
+     * Compares two NodeRecords based off their estimated total cost to the goal node
+     * @param record the other record to compare to
+     * @return the result of comparing the NodeRecords' estimated total costs
+     */
     @Override
     public int compareTo(NodeRecord record) {
         return Double.compare(this.estimatedTotalCost, record.estimatedTotalCost);
